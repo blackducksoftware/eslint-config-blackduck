@@ -610,7 +610,7 @@ module.exports = {
         'no-undefined': 'off',
 
         // disallow dangling underscores in identifiers
-        'no-underscore-dangle': 'warn',
+        'no-underscore-dangle': 'off',
 
         // disallow confusing multiline expressions
         'no-unexpected-multiline': 'warn',
