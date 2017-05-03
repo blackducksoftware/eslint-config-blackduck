@@ -687,14 +687,7 @@ module.exports = {
             'always'
         ],
 
-        //  This rule enforces consistent line breaks inside braces of object literals or destructuring assignments.
-        //  'multiline': true (default) requires line breaks if there are line breaks inside properties or between properties
-        'object-curly-newline': [
-            'warn',
-            {
-                multiline: true
-            }
-        ],
+        'object-curly-newline': 'off',
 
         'object-property-newline': 'off',
 
