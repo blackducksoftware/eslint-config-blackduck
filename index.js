@@ -708,7 +708,11 @@ module.exports = {
         // statements (excepting switch statements and classes)
         'padded-blocks': [
             'warn',
-            'never'
+            {
+                blocks: 'never',
+                classes: 'never',
+                switches: 'never'
+            }
         ],
 
         // require quotes around object literal property names
