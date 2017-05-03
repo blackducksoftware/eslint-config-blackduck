@@ -187,7 +187,7 @@ modules.exports = {
         'id-match': 'off',
 
         'indent': [
-            'warn',
+            'error',
             4
         ],
 
@@ -213,7 +213,7 @@ modules.exports = {
         // line feed (LF) making it a carriage return line feed (CRLF) whereas Linux and Unix use a simple line feed (LF).
         // The corresponding control sequences are '\n' (for LF) and '\r\n' for (CRLF).
         'linebreak-style': [
-            'warn',
+            'error',
             'unix'
         ],
 
@@ -234,9 +234,11 @@ modules.exports = {
         // Very long lines of code in any language can be difficult to read. In order to aid in readability
         // and maintainability many coders have developed a convention to limit lines of code to X number of characters
         'max-len': [
-            'warn',
-            140,
-            4
+            'error',
+            {
+                code: 140,
+                ignoreTrailingComments: true
+            }
         ],
 
         // Many JavaScript libraries use the callback pattern to manage asynchronous operations.
@@ -472,7 +474,7 @@ modules.exports = {
         // Most code conventions require either tabs or spaces be used for
         // indentation. As such, it’s usually an error if a single line of
         // code is indented with both tabs and spaces.
-        'no-mixed-spaces-and-tabs': 'warn',
+        'no-mixed-spaces-and-tabs': 'error',
 
         // Not sure about this one, this just caused a bug but I do like them
         // disallow use of chained assignment expressions
@@ -731,7 +733,7 @@ modules.exports = {
         'require-jsdoc': 'off',
 
         // require semicolons instead of ASI
-        'semi': 'warn',
+        'semi': 'error',
 
         // JavaScript allows you to place unnecessary spaces before or after a semicolon.
         // Disallowing or enforcing space around a semicolon can improve the readability of your program.
