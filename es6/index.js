@@ -1,4 +1,4 @@
-modules.exports = {
+module.exports = {
     extends: 'blackduck',
     env: {
         'es6': true
