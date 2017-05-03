@@ -265,7 +265,10 @@ module.exports = {
 
         // enforce a maximum number of statements allowed in function blocks
         // This is arbitrarily high right now
-        'max-statements': 50,
+        'max-statements': [
+            'error',
+            50
+        ],
 
         // require constructor names to begin with a capital letter
         'new-cap': 'warn',
@@ -383,7 +386,7 @@ module.exports = {
         // to avoid conflicts with the wrap-iife rule
         'no-extra-parens': [
             'warn',
-            'always',
+            'all',
             {
                 'conditionalAssign': false,       // allows extra parentheses around assignments in conditional test expressions
                 'returnAssign': false,            // allows extra parentheses around assignments in return statements
