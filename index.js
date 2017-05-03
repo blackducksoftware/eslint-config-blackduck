@@ -437,7 +437,7 @@ module.exports = {
         // function expressions can occur anywhere an expression is permitted.
         'no-inner-declarations': [
             'error',
-            'both'
+            'functions'
         ],
 
         // disallow invalid regular expression strings in RegExp constructors
