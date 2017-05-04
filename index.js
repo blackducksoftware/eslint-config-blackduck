@@ -591,7 +591,7 @@ module.exports = {
 
         "no-sparse-arrays": "off",
 
-        "no-tabs": "warn",
+        "no-tabs": "error",
 
         "no-ternary": "off",
 
