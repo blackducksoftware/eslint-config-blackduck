@@ -290,7 +290,7 @@ module.exports = {
 
         "no-alert": "error",
 
-        "no-array-constructor": "warn",
+        "no-array-constructor": "error",
 
         "no-compare-neg-zero": "warn",
 
