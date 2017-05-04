@@ -1,129 +1,139 @@
 module.exports = {
-    extends: 'blackduck',
-    env: {
-        'es6': true
+    "extends": "blackduck",
+    "env": {
+        "es6": true
     },
-    parserOptions: {
-        ecmaVersion: 6,
-        sourceType: 'module'
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
     },
-    rules: {
-        'arrow-body-style': [
-            'error',
-            'as-needed'
+    "rules": {
+        "arrow-body-style": [
+            "error",
+            "as-needed"
         ],
 
-        'arrow-parens': [
-            'error',
-            'as-needed'
+        "arrow-parens": [
+            "error",
+            "as-needed"
         ],
 
-        'arrow-spacing': [
-            'warn',
+        "arrow-spacing": [
+            "warn",
             {
-                before: false,
-                after: true
+                "before": false,
+                "after": true
             }
         ],
 
-        'class-methods-use-this': 'off',
+        "class-methods-use-this": "off",
 
-        'constructor-super': 'error',
+        "constructor-super": "error",
 
         // valid: function* foo() { .. }
-        'generator-star-spacing': [
-            'warn',
-            'after'
+        "generator-star-spacing": [
+            "warn",
+            "after"
         ],
 
-        'jsx-quotes': [
-            'warn',
-            'prefer-single'
+        "jsx-quotes": [
+            "warn",
+            "prefer-single"
         ],
 
-        'no-await-in-loop': 'error',
+        "no-await-in-loop": "error",
 
-        'no-class-assign': 'error',
+        "no-class-assign": "error",
 
-        'no-confusing-arrow': [
-            'warn',
+        "no-confusing-arrow": [
+            "warn",
             {
-                allowParens: true
+                "allowParens": true
             }
         ],
 
-        'no-const-assign': 'error',
+        "no-const-assign": "error",
 
         // disallow duplicate class members
-        'no-dupe-class-members': 'error',
+        "no-dupe-class-members": "error",
 
-        'no-duplicate-imports': 'error',
+        "no-duplicate-imports": "error",
 
         // disallow empty destructuring patterns
-        'no-empty-pattern': 'warn',
+        "no-empty-pattern": "warn",
 
-        'no-invalid-this': 'warn',
+        "no-invalid-this": "warn",
 
         // disallow new operators with the Symbol object
         // Symbol is not intended to be used with the new operator, but to be called as a function.
-        'no-new-symbol': 'error',
+        "no-new-symbol": "error",
 
-        'no-restricted-imports': 'off',
+        "no-restricted-imports": "off",
 
         // disallow unnecessary return await
-        'no-return-await': 'warn',
+        "no-return-await": "warn",
 
-        'no-template-curly-in-string': 'off',
+        "no-template-curly-in-string": "off",
 
-        'no-this-before-super': 'error',
+        "no-this-before-super": "error",
 
-        'no-useless-computed-key': 'warn',
-
-        'no-useless-constructor': 'warn',
-
-        'no-useless-rename': 'warn',
-
-        'no-var': 'warn',
-
-        'object-shorthand': 'warn',
-
-        'prefer-arrow-callback': 'warn',
-
-        'prefer-const': 'warn',
-
-        'prefer-destructuring': 'warn',
-
-        'prefer-numeric-literals': 'warn',
-
-        'prefer-promise-reject-errors': 'warn',
-
-        'prefer-rest-params': 'error',
-
-        'prefer-spread': 'warn',
-
-        'prefer-template': 'warn',
-
-        'require-yield': 'error',
-
-        'rest-spread-spacing': [
-            'warn',
-            'never'
+        // An unused expression which has no effect on the state of the program indicates a logic error.
+        // For example, n + 1; is not a syntax error, but it might be a typing mistake where a programmer
+        // meant an assignment statement n += 1; instead.
+        "no-unused-expressions": [
+            "warn",
+            {
+                "allowTaggedTemplates": true
+            }
         ],
 
-        'sort-imports': 'off',
+        "no-useless-computed-key": "warn",
 
-        'symbol-description': 'warn',
+        "no-useless-constructor": "warn",
 
-        'template-tag-spacing': [
-            'warn',
-            'never'
+        "no-useless-rename": "warn",
+
+        "no-var": "warn",
+
+        "object-shorthand": "warn",
+
+        "prefer-arrow-callback": "warn",
+
+        "prefer-const": "warn",
+
+        "prefer-destructuring": "warn",
+
+        "prefer-numeric-literals": "warn",
+
+        "prefer-promise-reject-errors": "warn",
+
+        "prefer-rest-params": "error",
+
+        "prefer-spread": "warn",
+
+        "prefer-template": "warn",
+
+        "require-yield": "error",
+
+        "rest-spread-spacing": [
+            "warn",
+            "never"
         ],
 
-        'template-curly-spacing': [
-            'warn',
-            'always'
+        "sort-imports": "off",
+
+        "symbol-description": "warn",
+
+        "template-tag-spacing": [
+            "warn",
+            "never"
         ],
 
-        'yield-star-spacing': 'warn'
+        "template-curly-spacing": [
+            "warn",
+            "always"
+        ],
+
+        "yield-star-spacing": "warn"
     }
 };
