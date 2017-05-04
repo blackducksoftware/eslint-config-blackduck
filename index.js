@@ -480,7 +480,7 @@ module.exports = {
         // Most code conventions require either tabs or spaces be used for
         // indentation. As such, it’s usually an error if a single line of
         // code is indented with both tabs and spaces.
-        "no-mixed-spaces-and-tabs": "error",
+        "no-mixed-spaces-and-tabs": "off",
 
         // Not sure about this one, this just caused a bug but I do like them
         // disallow use of chained assignment expressions
