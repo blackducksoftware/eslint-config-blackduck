@@ -295,7 +295,12 @@ module.exports = {
         "no-cond-assign": "warn",
 
         // disallow the use of console
-        "no-console": "error",
+        "no-console": [
+            "error",
+            {
+                "allow": ["warn", "error"]
+            }
+        ],
 
         // disallow constant expressions in conditions
         "no-constant-condition": "warn",
