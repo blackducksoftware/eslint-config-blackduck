@@ -44,7 +44,10 @@ module.exports = {
         // }
         "brace-style": [
             "warn",
-            "1tbs"
+            "1tbs",
+            {
+                allowSingleLine: true
+            }
         ],
 
         // Doesn't include leading or trailing underscores, or all-cap constants
