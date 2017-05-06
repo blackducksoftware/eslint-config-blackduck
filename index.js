@@ -79,28 +79,7 @@ module.exports = {
             }
         ],
 
-        // Valid "first" comma style placement:
-        // var foo = 1, bar = 2;
-        //
-        // var foo = 1
-        // ,   bar = 2;
-        //
-        // var foo = [
-        //     "apples"
-        //     , "oranges"
-        // ];
-        //
-        // function bar() {
-        //     return {
-        //         "a": 1
-        //         , "b:": 2
-        //     };
-        // }
-        "comma-style": [
-            "warn",
-            "first"
-        ],
-
+        "comma-style": "off",
 
         // Disallow more than 15 linear paths through a single function
         // This encourages breaking down huge functions into manageable blocks. We may need to set this
