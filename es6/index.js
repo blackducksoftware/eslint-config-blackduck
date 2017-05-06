@@ -99,7 +99,12 @@ module.exports = {
 
         "prefer-numeric-literals": "warn",
 
-        "prefer-promise-reject-errors": "warn",
+        "prefer-promise-reject-errors": [
+            "warn",
+            {
+                "allowEmptyReject": true
+            }
+        ],
 
         "prefer-rest-params": "error",
 
