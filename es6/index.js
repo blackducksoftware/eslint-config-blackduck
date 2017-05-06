@@ -21,7 +21,7 @@ module.exports = {
         "arrow-spacing": [
             "warn",
             {
-                "before": false,
+                "before": true,
                 "after": true
             }
         ],
