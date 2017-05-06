@@ -13,10 +13,7 @@ module.exports = {
             "as-needed"
         ],
 
-        "arrow-parens": [
-            "error",
-            "as-needed"
-        ],
+        "arrow-parens": "off",
 
         "arrow-spacing": [
             "warn",
