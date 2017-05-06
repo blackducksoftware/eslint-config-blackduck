@@ -131,7 +131,7 @@ module.exports = {
 
         "template-curly-spacing": [
             "warn",
-            "always"
+            "never"
         ],
 
         "yield-star-spacing": "warn"
