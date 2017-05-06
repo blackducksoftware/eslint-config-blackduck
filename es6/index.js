@@ -8,10 +8,7 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
-        "arrow-body-style": [
-            "error",
-            "as-needed"
-        ],
+        "arrow-body-style": "off",
 
         "arrow-parens": "off",
 
