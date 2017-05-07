@@ -1,4 +1,5 @@
 module.exports = {
+    // Base rule set, compatible with ES5 syntax
     rules: {
         "accessor-pairs": "off",
 
@@ -46,7 +47,7 @@ module.exports = {
             "warn",
             "1tbs",
             {
-                allowSingleLine: true
+                "allowSingleLine": true
             }
         ],
 
@@ -74,8 +75,8 @@ module.exports = {
         "comma-spacing": [
             "warn",
             {
-                before: false,
-                after: true
+                "before": false,
+                "after": true
             }
         ],
 
@@ -126,9 +127,9 @@ module.exports = {
         "dot-notation": [
             "warn",
             {
-                allowKeywords: true,
+                "allowKeywords": true,
                 // allow for kebab-case square bracket notation
-                allowPattern: "^[a-z]+(-[a-z]+)+$"
+                "allowPattern": "^[a-z]+(-[a-z]+)+$"
             }
         ],
 
@@ -172,7 +173,7 @@ module.exports = {
             "error",
             4,
             {
-                SwitchCase: 1
+                "SwitchCase": 1
             }
         ],
 
@@ -186,9 +187,9 @@ module.exports = {
         "key-spacing": [
             "warn",
             {
-                beforeColon: false,
-                afterColon: true,
-                mode: "strict"
+                "beforeColon": false,
+                "afterColon": true,
+                "mode": "strict"
             }
         ],
 
@@ -221,8 +222,8 @@ module.exports = {
         "max-len": [
             "error",
             {
-                code: 140,
-                ignoreTrailingComments: true
+                "code": 140,
+                "ignoreTrailingComments": true
             }
         ],
 
@@ -490,7 +491,7 @@ module.exports = {
         "no-multiple-empty-lines": [
             "warn",
             {
-                max: 1
+                "max": 1
             }
         ],
 
@@ -702,9 +703,9 @@ module.exports = {
         "padded-blocks": [
             "warn",
             {
-                blocks: "never",
-                classes: "never",
-                switches: "never"
+                "blocks": "never",
+                "classes": "never",
+                "switches": "never"
             }
         ],
 
@@ -713,8 +714,8 @@ module.exports = {
             "warn",
             "as-needed",
             {
-                keywords: true,
-                numbers: true
+                "keywords": true,
+                "numbers": true
             }
         ],
 

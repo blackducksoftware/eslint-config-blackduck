@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/blackducksoftware/eslint-config-blackduck/issues"
   },
-  "homepage": "https://github.com/blackducksoftware/eslint-config-blackduck#readme"
+  "homepage": "https://github.com/blackducksoftware/eslint-config-blackduck#readme",
+  "devDependencies": {
+    "eslint-plugin-react": "^7.0.0"
+  }
 }

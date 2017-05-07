@@ -1,8 +1,8 @@
 module.exports = {
-    extends: 'blackduck',
-    env: {},
-    parserOptions: {
-        ecmaVersion: 5
+    "extends": 'blackduck',
+    "env": {},
+    "parserOptions": {
+        "ecmaVersion": 5
     },
-    rules: {}
+    "rules": {}
 };

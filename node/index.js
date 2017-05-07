@@ -1,12 +1,11 @@
 module.exports = {
-    extends: [
-        'blackduck',
+    "extends": [
         'blackduck/es6'
     ],
-    env: {
+    "env": {
         'node': true
     },
-    rules: {
+    "rules": {
         'callback-return': 'off',
 
         'global-require': 'warn',
