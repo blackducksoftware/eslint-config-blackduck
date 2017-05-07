@@ -93,7 +93,10 @@ module.exports = {
 
         "react/jsx-closing-bracket-location": "warn",
 
-        "react/jsx-curly-spacing": "never",
+        "react/jsx-curly-spacing": [
+            "warn",
+            "never"
+        ],
 
         "react/jsx-equals-spacing": [
             "warn",
