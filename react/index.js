@@ -121,7 +121,8 @@ module.exports = {
         "react/jsx-max-props-per-line": [
             "warn",
             {
-                "maximum": 2
+                "maximum": 1,
+                "when": "multiline"
             }
         ],
 
