@@ -118,7 +118,12 @@ module.exports = {
 
         "react/jsx-key": "error",
 
-        "react/jsx-max-props-per-line": "warn",
+        "react/jsx-max-props-per-line": [
+            "warn",
+            {
+                "maximum": 2
+            }
+        ],
 
         "react/jsx-no-bind": "error",
 
