@@ -110,7 +110,7 @@ module.exports = {
             "multiline"
         ],
 
-        "react/jsx-handler-names": "warn",
+        "react/jsx-handler-names": "off",
 
         "react/jsx-indent": "warn",
 
