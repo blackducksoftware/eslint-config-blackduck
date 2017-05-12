@@ -22,7 +22,12 @@ module.exports = {
 
         "react/forbid-elements": "off",
 
-        "react/forbid-prop-types": "warn",
+        "react/forbid-prop-types": [
+            "warn",
+            {
+                "forbid": ["any", "array"]
+            }
+        ],
 
         "react/forbid-foreign-prop-types": "off",
 
