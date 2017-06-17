@@ -22,8 +22,5 @@
     "url": "https://github.com/blackducksoftware/eslint-config-blackduck/issues"
   },
   "homepage": "https://github.com/blackducksoftware/eslint-config-blackduck#readme",
-  "dependencies": {
-    "eslint-plugin-react": "^7.0.0",
-    "babel-eslint": "6.1.2"
-  }
+  "dependencies": {}
 }
