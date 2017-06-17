@@ -691,13 +691,18 @@ module.exports = {
                 },
                 ObjectPattern: {
                     "multiline": true,
-                    "minProperties": 5,
+                    "minProperties": 6,
                     "consistent": true
                 }
             }
         ],
 
-        "object-property-newline": "off",
+        "object-property-newline": [
+            "warn",
+            {
+                "allowMultiplePropertiesPerLine": false
+            }
+        ],
 
         "one-var": "off",
 
