@@ -681,7 +681,12 @@ module.exports = {
             "always"
         ],
 
-        "object-curly-newline": "off",
+        "object-curly-newline": [
+            "warn",
+            {
+                "consistent": true
+            }
+        ],
 
         "object-property-newline": "off",
 
